@@ -29,13 +29,19 @@ void radical(int a){
     std::cout << "your result opration : " << sqrt(a) << std::endl;
 }
 
+//for power funciton :
+
+void power(int a ,int b){
+    std::cout << "your result opration : " << pow(a , b) << std::endl;
+}
+
 
 
 
 
 
 int main(){
-    char opration ;
+    std::string opration ;
     //getting opration:
     std::cout << "Enter the opration you want : " << std::endl;
     cin >> opration;
@@ -46,5 +52,24 @@ int main(){
     std::cout << "right now you can enter the second number :" << std::endl;
     int secondNumber ;
     cin >> secondNumber;
+    if(opration == "*"){
+        multiplication(firstNumber , secondNumber);
+    }
+    else if(opration == "+"){
+        plural(firstNumber , secondNumber);
+    }
+    else if(opration == "/"){
+        division(firstNumber  , secondNumber);
+    }
+    else if(opration == "**"){
+        power(firstNumber , secondNumber);
+    }
+    else if(opration == "//"){
+        radical(firstNumber);
+    }
+    else {
+        std::cout << "error in opration" << std::endl;
+        return -1;
+    }
     return 0;
 }
