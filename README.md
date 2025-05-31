@@ -1,32 +1,32 @@
-Simple C++ Calculator
+Simple C++ Calculator🔥
 
 This is a simple command-line calculator written in C++. It supports basic arithmetic operations such as:
 
-Addition (+)
+Addition (+)➕
 
-Subtraction (-) (not implemented in main function yet)
+Subtraction (-) (not implemented in main function yet)➖
 
-Multiplication (*)
+Multiplication (*)✖️
 
-Division (/)
+Division (/)➗
 
-Power (**)
+Power (**)💪
 
 Square root (//) (only uses the first number)
 
-Features
+Features✅
 
-Takes user input for an operation and two numbers
+Takes user input for an operation and two numbers✅
 
-Executes the chosen operation using custom functions
+Executes the chosen operation using custom functions✅
 
-Displays the result of the operation
+Displays the result of the operation✅
 
-Uses standard C++ libraries like <iostream> and <cmath>
+Uses standard C++ libraries like <iostream> and <cmath>✅
 
-Works entirely in the terminal (console)
+Works entirely in the terminal (console)✅
 
-How to Compile
+How to Compile🤔
 
 To compile the calculator using g++, run the following command in your terminal:
 
@@ -36,11 +36,9 @@ Copy
 
 Edit
 
-g++ -o calculator calculator.cpp
+g++ -o main.cpp calculator.exe
 
-calculator.cpp is the name of your source file.
-
--o calculator means the output (compiled file) will be named calculator.
+main.cpp is the name of your source file.
 
 How to Run
 
@@ -52,7 +50,7 @@ Copy
 
 Edit
 
-./calculator
+./calculator.exe
 
 Example
 
@@ -63,17 +61,11 @@ Copy
 Edit
 
 Enter the opration you want :
-
 +
-
 now you can enter your the first number :
-
 4
-
 right now you can enter the second number :
-
 6
-
 your result opration : 10
 
 Notes
